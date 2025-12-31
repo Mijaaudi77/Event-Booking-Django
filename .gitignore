@@ -1,0 +1,40 @@
+# Django
+*.pyc
+__pycache__/
+db.sqlite3
+db.sqlite3-journal
+*.log
+
+# Environment
+.env
+.venv
+venv/
+env/
+ENV/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Static/media collected
+/media/
+/staticfiles/
+
+# Testing
+.coverage
+htmlcov/
+
+# Project specific
+security_audit_report.pdf
+*.backup
